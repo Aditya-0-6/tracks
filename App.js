@@ -32,9 +32,6 @@ function Home() {
   )
 }
 
-
-
-
 function App() {
     return (
       <NavigationContainer>
@@ -43,6 +40,7 @@ function App() {
              <Stack.Screen name="Sign In" component={SigninScreen} />
              <Stack.Screen name="Home" component={Home}/>
              <Stack.Screen name ="Detail" component={TrackDetailScreen}/>
+               <h1></h1>
         </Stack.Navigator>
       </NavigationContainer>
       
