@@ -24,7 +24,6 @@ function Home() {
     inactiveColor="#3e2465"
     barStyle={{ backgroundColor: '#694fad' }}
         >
-
       <Tab.Screen name="Account" component={AccountScreen} />
       <Tab.Screen name="Track List" component={TrackListScreen} />
       <Tab.Screen name="Track Create" component={TrackCreateScreen} />
